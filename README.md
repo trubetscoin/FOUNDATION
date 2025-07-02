@@ -51,7 +51,7 @@ export DB_NAME=foundation
 To start the project with docker simply use: `docker compose up` or `docker compose up -d` to run it as daemon <br/>
 
 ## Important Notes
-Change application-dev-secrets.yml and application-prod-secrets.yml files data ASAP and add them to .gitignore.  <br/>
+Change application-dev-secrets.yml and application-prod-secrets.yml files data ASAP. <br/>
 The environment variables for the docker compose database must be the same as in application-prod-secrets.yml to work. Otherwise, spring backend would not be able to connect to the postgres database.
 
 ## Dependencies
