@@ -1,5 +1,5 @@
 src/main/resources/application-dev-secrets.yml
-src/main/resources/application-prodsecrets.yml
+src/main/resources/application-prod-secrets.yml
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
