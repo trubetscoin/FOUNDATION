@@ -55,6 +55,8 @@ Change application-dev-secrets.yml and application-prod-secrets.yml files data A
 The environment variables for the docker compose database must be the same as in application-prod-secrets.yml to work. Otherwise, spring backend would not be able to connect to the postgres database.
 
 ## Dependencies
+Docker Engine >= 20.10
+
+## Dependencies for local development
 Java >= 17.0 \
 PostgreSQL >= 17.5 \
-Docker Engine >= 20.10
